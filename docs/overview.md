@@ -54,7 +54,15 @@ Something we want to consider is that, it is likely considered “bad practice�
 
 I am considering using go-git to add a git integration for version control for software development, allowing organizations to develop their capabilities outside of the public view in places like GitHub 
 
-In terms of architecture I think 
+In terms of architecture I think I am aiming for more of a modular monolith, where we have a single codebase that is broken up into many different services. This is done to ensure that we can easily deploy and scale the platform as needed.
+
+The way I imagine this is a sort of "plugin" based system, where the core litestar app is the main service, and then we have many other services that can be added on to the core system.
+
+This will of course be done using containers, and we will use docker-compose to manage the various services that make up the platform.
+
+This includes things like the web server, the database, the file storage, the git server, the tor proxy, the VPN, the C2 listeners for communicating with implants, the various microservices that make up the platform, etc.
+
+
 
 —- 
 Overall, the above rough draft outlining the basic ideas of what I am looking to create is extremely incomplete and incoherent. I don’t think I even mentioned I wanted to make this system a micro service architecture until talking about how they should communicate over tor
