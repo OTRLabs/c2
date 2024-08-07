@@ -44,7 +44,7 @@ I intend to build this project as a modular monolith style `web application` usi
 - [Tor Hidden Services for secure communication](https://www.torproject.org/docs/tor-onion-service.html.en), both via SSH & HTTP(S) 
 - Jinja2 for the templating engine
 - [HTMX](https://htmx.org) for the frontend, using the [HTMX Plugin for Litestar ASGI framework.](https://docs.litestar.dev/2/usage/htmx.html#htmx)
-- SQLalchemy + advanced alchemy for ORM with Postgres for the database management system 
+- [SQLalchemy 2.0](https://www.sqlalchemy.org/) + [advanced alchemy](https://github.com/litestar-org/advanced-alchemy) for ORM with Postgres for the database management system 
 - seaweed FS S3 for blob storage (items stored here are indexed in the Postgres database )
 
 We are looking to create a collaborative environment where intelligence can be pooled into a centralized location allowing for organizations to communicate effectively to accomplish their many goals 
