@@ -1,3 +1,9 @@
+
+
+# Introduction
+
+## Goals
+
 I am kinda interested in creating a commercial competitor to Cobalt Strike by Forta, or Mythic C2 framework 
 
 I am really interested in offensive security, specifically advanced adversary emulation 
@@ -5,14 +11,21 @@ I am really interested in offensive security, specifically advanced adversary em
 I would like to pursue this full time, and monetize this in a way that can support myself in a way that allows me to focus on development full time.
 
 
+
+
+---
+
+
+# Overview
 Moving forward:
+
 
 
 
 Alright so my goal is to design an adversary emulation system which makes it’s focus on
 
 - 1. operational security meaning that the operators should stay anonymous and evade attribution 
-- 2. Accurate information and intelligence gathering in relation to various operations 
+- 2. Accurate information and intelligence gathering in relation to various operations. This includes things like network reconnaissance, social engineering, and other forms of intelligence gathering 
 
 Some general qualities of this adversary emulation platform are:
 
@@ -24,10 +37,10 @@ Some general qualities of this adversary emulation platform are:
 The user experience seeks to be flexible but minimalist. Not overly minimalist, just no unnecessary design choices. We do not want things to be “in the way” so to speak. 
 
 I intend to build this project as a web application using 
-- Litestar as the backend 
-- Vite 
-- React
-- ShadCN UI components 
+- [Litestar ASGI Framework](https://litestar.dev) as the backend
+- [Tor Hidden Services for secure communication](https://www.torproject.org/docs/tor-onion-service.html.en), both via SSH & HTTP(S) 
+- Jinja2 for the templating engine
+- [HTMX](https://htmx.org) for the frontend, using the [HTMX Plugin for Litestar ASGI framework.](https://docs.litestar.dev/2/usage/htmx.html#htmx)
 - SQLalchemy + advanced alchemy for ORM with Postgres for the database management system 
 - seaweed FS S3 for blob storage (items stored here are indexed in the Postgres database )
 
@@ -73,4 +86,5 @@ Like I want to include core collaboration, project management, communication fea
 
 As well as the ability to manage things such as port scanning or other automated intelligence gathering that an APT might do. 
 
-Please help me create a more comprehensive outline of this plan
+Please help me create a more comprehensive outline of this plan. I am looking to create a business plan for this project and I need to have a more comprehensive outline of what I am looking to create.
+
