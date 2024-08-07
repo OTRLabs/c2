@@ -36,8 +36,11 @@ Some general qualities of this adversary emulation platform are:
 # Tech Stack
 The user experience seeks to be flexible but minimalist. Not overly minimalist, just no unnecessary design choices. We do not want things to be “in the way” so to speak. 
 
-I intend to build this project as a web application using 
-- [Litestar ASGI Framework](https://litestar.dev) as the backend
+I intend to build this project as a modular monolith style `web application` using the following technologies:
+- [PDM](https://github.com/pdm-project/pdm) for package management
+- [Containers + Kubeadm Kubernetes](https://kubernetes.io) for containerization and orchestration
+- Python's [Litestar ASGI Framework](https://litestar.dev) as the backend
+  LiteStar is a modern ASGI web framework that is designed to be fast, simple, and easy to use. It is designed to be a drop-in replacement for Django, Flask, and other popular web frameworks.
 - [Tor Hidden Services for secure communication](https://www.torproject.org/docs/tor-onion-service.html.en), both via SSH & HTTP(S) 
 - Jinja2 for the templating engine
 - [HTMX](https://htmx.org) for the frontend, using the [HTMX Plugin for Litestar ASGI framework.](https://docs.litestar.dev/2/usage/htmx.html#htmx)
