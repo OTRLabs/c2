@@ -2,6 +2,20 @@
 
 
 Below are some notes and writing in some poorly formatted markdown text, which seeks to articulate my goal for a business I intend to build.
+Taking a moment to step back from the platform itself, I want to talk for a moment about monetization strategies 
+
+It is important to me that we are not squeezing our customers for money on stuff that ends up not being useful to them and their operation. 
+
+I occasionally have services where I am more than happy to pay for the service as it feels “worth it”, while others feel less so. This is somewhat arbitrary and based mostly on “vibes” but generally I want to avoid giving off the wrong vibes
+For this reason I think there should be a 
+
+- open source / community edition which exists as the base litestar application and the kubeadm stuff to set up the base structure for a system 
+- bonus enterprise features which can be “loaded” in, in real time due to the containerized nature of the system 
+
+These enterprise features should be made available for purchase either in single features or bundles of similar features allowing for larger orgs to quickly scale their arsenal and capabilities while giving open source devs free tooling to play around with since I enjoy that myself 
+
+This allows us to benefit from a variety of different advantages of being both open source and community focused while also providing enterprise support and
+
 
 In the below writing, I will outline the general idea of what it is I am aiming to accomplish, however I not only outright contradict myself within this draft, but have likely decided not to go through with features which I may still have written down here. For example, any reference to using React for the frontend is now out of date. We instead will be using a combination of HTMX & Jinja2 HTML templates
 
@@ -28,9 +42,10 @@ For example, some LLMs I use are aware of Litestar, the newer ASGI framework for
 
 Please feel free to create a list of documentation that you want at the bottom of any reply. Feel free to add this list to the bottom of a reply anytime you believe that getting up to date information is the best call.
 
-======
 
-
+----
+----
+---
 
 
 # Introduction
@@ -185,7 +200,9 @@ Please help me create a more comprehensive outline of this plan. I am looking to
 
 
 
-=======
+---
+---
+---
 
 
 
