@@ -77,6 +77,20 @@ This will of course be done using containers, and we will use docker-compose to 
 This includes things like the web server, the database, the file storage, the git server, the tor proxy, the VPN, the C2 listeners for communicating with implants, the various microservices that make up the platform, etc.
 
 
+## Business Model
+Taking a moment to step back from the platform itself, I want to talk for a moment about monetization strategies 
+
+It is important to me that we are not squeezing our customers for money on stuff that ends up not being useful to them and their operation. 
+
+I occasionally have services where I am more than happy to pay for the service as it feels “worth it”, while others feel less so. This is somewhat arbitrary and based mostly on “vibes” but generally I want to avoid giving off the wrong vibes
+For this reason I think there should be a 
+
+- open source / community edition which exists as the base litestar application and the kubeadm stuff to set up the base structure for a system 
+- bonus enterprise features which can be “loaded” in, in real time due to the containerized nature of the system 
+
+These enterprise features should be made available for purchase either in single features or bundles of similar features allowing for larger orgs to quickly scale their arsenal and capabilities while giving open source devs free tooling to play around with since I enjoy that myself 
+
+This allows us to benefit from a variety of different advantages of being both open source and community focused while also providing enterprise support and
 
 —- 
 Overall, the above rough draft outlining the basic ideas of what I am looking to create is extremely incomplete and incoherent. I don’t think I even mentioned I wanted to make this system a micro service architecture until talking about how they should communicate over tor
