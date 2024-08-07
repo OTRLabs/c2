@@ -1,5 +1,38 @@
 
 
+
+Below are some notes and writing in some poorly formatted markdown text, which seeks to articulate my goal for a business I intend to build.
+
+In the below writing, I will outline the general idea of what it is I am aiming to accomplish, however I not only outright contradict myself within this draft, but have likely decided not to go through with features which I may still have written down here. For example, any reference to using React for the frontend is now out of date. We instead will be using a combination of HTMX & Jinja2 HTML templates
+
+Anyway the point is, none of this is set in stone, some of it doesn’t make sense, and is outright incorrect/inaccurate.
+
+Moving forward, I want you to analyze what I have written, and begin to assist me in creating both some of the code that we will be using as I have already started writing the foundation of the application, but really the primary focus on assisting me with creating markdown based information about the project in the form of 
+
+- GitHub Projects (I use the table view typically) & detailed issues
+- GitHub wiki
+- GitHub readme
+- documentation (.Md files will do for now)
+
+Basically, while I would like you to provide example code blocks, it should serve more as the cherry on top, with detailed documentation and outlining of features and how I intend to accomplish the goals
+
+By the way, I’m not like, mean or overly strict about it, but generally speaking I would appreciate if the code snippets are using best practices. For example I try to strongly type my python code. I prefer typescript over JS, I like to use Dunder methods when applicable and if possible when writing code in other languages following similar practices that demonstrate not only secure coding practices but also an understanding of the language and its unique features (use goroutines or something when using go, you get it I’m sure)
+
+
+
+Some other things worth noting 
+
+I am absolutely willing to provide you (the LLM) with whatever relevant documentation you may need. Please feel free to request any relevant documentation for software or services 
+
+For example, some LLMs I use are aware of Litestar, the newer ASGI framework for python, while others default to using fast API instead considering how similar they are.
+
+Please feel free to create a list of documentation that you want at the bottom of any reply. Feel free to add this list to the bottom of a reply anytime you believe that getting up to date information is the best call.
+
+======
+
+
+
+
 # Introduction
 
 ## Goals
@@ -112,6 +145,8 @@ This will of course be done using containers, and we will use docker-compose to 
 This includes things like the web server, the database, the file storage, the git server, the tor proxy, the VPN, the C2 listeners for communicating with implants, the various microservices that make up the platform, etc.
 
 
+# Business & Monetization
+---
 ## Business Model
 Taking a moment to step back from the platform itself, I want to talk for a moment about monetization strategies 
 
@@ -127,7 +162,17 @@ These enterprise features should be made available for purchase either in single
 
 This allows us to benefit from a variety of different advantages of being both open source and community focused while also providing enterprise support and
 
-—- 
+### Marketing and Advertising 
+
+I think if I give it the proper attention and effort, I would be capable of learning how to make high quality advertising materials & ultimately campaigns that follow at minimum basic principles of advertising and marketing to get more eyes on the platform.
+
+Eventually, I want to make a variety of advertising campaigns and marketing materials for different content formats such as videos, posts and more
+
+
+
+
+# Conclusion
+---
 Overall, the above rough draft outlining the basic ideas of what I am looking to create is extremely incomplete and incoherent. I don’t think I even mentioned I wanted to make this system a micro service architecture until talking about how they should communicate over tor
 
 Moving forward, what I can tell you is I am looking to build an adversary emulation platform that acts almost like an intranet or like, Microsoft office Suite specifically for an advanced persistent threat. Basically everything you would expect with an office suite plus the APT emulation 
@@ -138,3 +183,18 @@ As well as the ability to manage things such as port scanning or other automated
 
 Please help me create a more comprehensive outline of this plan. I am looking to create a business plan for this project and I need to have a more comprehensive outline of what I am looking to create.
 
+
+
+=======
+
+
+
+Using the notes you just read and the instructions at the top of the message please help me begin to move forward with, not only the development of the platform itself but the development of the business around that platform.
+
+We are aiming to solidify these ideas before we really dive into the coding, making sure we have well established goals going into this.
+
+Please do your best to follow the guidelines I set out at the beginning and throughout the process.
+
+
+
+In general, I would like to use advanced, beautifully formatted markdown text, using the syntax that GitHub ReadME’s are rendered with allowing for advanced markdown text syntax
