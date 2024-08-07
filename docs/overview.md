@@ -18,7 +18,7 @@ Moving forward:
 
 Alright so my goal is to design an adversary emulation system which makes it’s focus on
 
-- 1. operational security meaning that the operators should stay anonymous and evade attribution 
+- 1. operational security meaning that the operators should stay anonymous and evade **attribution** & **identification** while conducting operations. 
 - 2. Accurate information and intelligence gathering in relation to various operations. This includes things like network reconnaissance, social engineering, and other forms of intelligence gathering 
 
 Some general qualities of this adversary emulation platform are:
