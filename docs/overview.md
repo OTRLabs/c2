@@ -4,7 +4,12 @@
 
 ## Goals
 
-I am looking to create a commercial competitor to Cobalt Strike by Forta, or Mythic C2 framework. I am really interested in offensive security, specifically advanced adversary emulation. I would like to pursue this full time, and monetize this in a way that can support myself in a way that allows me to focus on development full time.
+I am looking to create a commercial competitor to modern `red team` & `offensive security` tooling, such as [Cobalt Strike](https://www.cobaltstrike.com/) by [Forta](https://www.cobaltstrike.com/resources/datasheets/red-team-bundle), or [Mythic C2](https://github.com/its-a-feature/Mythic) framework, [OpenCTI & OpenBAS by Filigran](https://filigran.io/), as well as collaboration & communication software like [Huly](https://huly.io), [Plane](https://plane.so/), [Gitea](https://gitea.com).
+
+
+## Background
+
+I am really interested in offensive security, specifically advanced adversary emulation. I would like to pursue this full time, and monetize this in a way that can support myself in a way that allows me to focus on development full time.
 
 
 ---
@@ -20,6 +25,36 @@ Alright so my goal is to design an adversary emulation system which makes it’s
 
 - 1. operational security meaning that the operators should stay anonymous and evade **attribution** & **identification** while conducting operations. 
 - 2. Accurate information and intelligence gathering in relation to various operations. This includes things like network reconnaissance, social engineering, and other forms of intelligence gathering 
+
+
+## Inspirational Sources
+
+Before we begin to discuss how we intend to develop this platform, the tech stack we intend to use and other development decisions, we need to first consider in great detail, what it is we want to build to prevent feature creep.
+
+Now here’s where we kinda have to strike a balance: I want to design this to be a very long term project, which is built out and enhanced upon over time. Like, we will start by building out the basic auth systems for the dashboard or whatever and extend on from there. 
+
+So it’s like, on one hand we are deliberately taking on a large project with a large number of features, but we must  take the time to properly consider what we really do and what we probably actually do not want to include in the final product. 
+Again this system is designed to be highly customizable and flexible however generally speaking we want to appeal to a select demographic of red teams and offensive security professionals 
+There are multiple layers to what I have found personally inspiring in terms of products, platforms and software that integrate one or more feature I want to incorporate into my platform
+
+There are several different ways that I have found other platforms to be inspiring but for the most part what it comes down to is a project most often found on GitHub trending or awesome lists, will catch my eye based on one or two features within a larger application
+
+
+### Software List:
+
+#### Offensive Security Tools
+- [Cobalt Strike](https://www.cobaltstrike.com/) by [Forta](https://www.cobaltstrike.com/resources/datasheets/red-team-bundle)
+- [Mythic C2](https://github.com/its-a-feature/Mythic) framework
+- [OpenCTI & OpenBAS by Filigran](https://filigran.io/)
+
+
+#### Collaboration & Communication Tools
+- [Huly](https://huly.io)
+- [Plane](https://plane.so/)
+- [Gitea](https://gitea.com).
+
+
+## Finalizing the Concept
 
 Some general qualities of this adversary emulation platform are:
 
