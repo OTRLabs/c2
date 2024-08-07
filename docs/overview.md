@@ -4,13 +4,7 @@
 
 ## Goals
 
-I am kinda interested in creating a commercial competitor to Cobalt Strike by Forta, or Mythic C2 framework 
-
-I am really interested in offensive security, specifically advanced adversary emulation 
-
-I would like to pursue this full time, and monetize this in a way that can support myself in a way that allows me to focus on development full time.
-
-
+I am looking to create a commercial competitor to Cobalt Strike by Forta, or Mythic C2 framework. I am really interested in offensive security, specifically advanced adversary emulation. I would like to pursue this full time, and monetize this in a way that can support myself in a way that allows me to focus on development full time.
 
 
 ---
