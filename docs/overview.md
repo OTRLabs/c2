@@ -37,9 +37,13 @@ I intend to build this project as a modular monolith style `web application` usi
   LiteStar is a modern ASGI web framework that is designed to be fast, simple, and easy to use. It is designed to be a drop-in replacement for Django, Flask, and other popular web frameworks.
 - [Tor Hidden Services for secure communication](https://www.torproject.org/docs/tor-onion-service.html.en), both via SSH & HTTP(S) 
 - Jinja2 for the templating engine
+- Tor browser to access the platform, or `torsocks ssh username@exampleoniondomainxuynsns.onion` or something similar. maybe even brave since we are already using HTMX which includes client side scripting. so no reason to use the official tor browser especially if you are hosting your own instance of the platform 
+- Websockets & server sent events to allow for real-time communication between operators and the web UI
 - [HTMX](https://htmx.org) for the frontend, using the [HTMX Plugin for Litestar ASGI framework.](https://docs.litestar.dev/2/usage/htmx.html#htmx)
 - [SQLalchemy 2.0](https://www.sqlalchemy.org/) + [advanced alchemy](https://github.com/litestar-org/advanced-alchemy) for ORM with Postgres for the database management system 
 - seaweed FS S3 for blob storage (items stored here are indexed in the Postgres database )
+- [Tox](https://tox.chat) via [PyTox](https://github.com/TokTok/py-toxcore-c) for communication between operators & targets when simulating, say a ransomware attack and you need to simulate communications with a threat actor. This could be used to teach employees how to respond to a ransomware attack, for example, via Sonar on the Tor browser or other similar services & tools commonly used by threat actors.
+- [Go-Git](https://github.com/go-git/go-git) for version control, allowing for advanced software development capabilities within the platform. This is especially useful for organizations that want to develop their capabilities outside of the public view in places like GitHub, maybe when you need to create a special implant that can bypass a specific security control, or when you need to create a custom tool for a specific operation.
 
 We are looking to create a collaborative environment where intelligence can be pooled into a centralized location allowing for organizations to communicate effectively to accomplish their many goals 
 
