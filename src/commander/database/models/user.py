@@ -26,5 +26,5 @@ if TYPE_CHECKING:
 class User(UUIDAuditBase):
     __tablename__: str = "user_account"
     __table_args__ = {"comment": "User account for the commander application, handles authentication and authorization"}
-
+    pii_columns: List[str] = ["email", "phone_number"]
 
