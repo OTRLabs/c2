@@ -46,4 +46,5 @@ class User(UUIDAuditBase):
     # user status
     is_active: Mapped[bool] = mapped_column(Boolean, nullable=False, comment="Whether the user is active or not")
     is_deleted: Mapped[bool] = mapped_column(Boolean, nullable=False, comment="Whether the user is deleted or not")
-    
+    is_xmpp_verified: Mapped[bool] = mapped_column(Boolean, nullable=False, comment="Whether the user's XMPP address is verified or not")
+        
