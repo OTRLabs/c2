@@ -37,10 +37,12 @@ class User(UUIDAuditBase):
     name: Mapped[str] = mapped_column(String(255), nullable=False, comment="The name of the user")
     username: Mapped[str] = mapped_column(String(255), nullable=False, comment="The username of the user")
     login_name: Mapped[str] = mapped_column(String(255), nullable=False, comment="The login name of the user")
+    phishing_protection_phrase: Mapped[str] = mapped_column(String(255), nullable=False, comment="The phrase used to protect the user from phishing attacks")
     
     # User account security information
     password_hash: Mapped[str] = mapped_column(String(255), nullable=False, comment="The hash of the user's password")
     password_salt: Mapped[str] = mapped_column(String(255), nullable=False, comment="The salt used to hash the user's password")
+    xmpp_2fa_enabled: Mapped[bool] = mapped_column(Boolean, nullable=False, comment="Whether the user has 2FA enabled for their XMPP account")
     
     
     # user status
