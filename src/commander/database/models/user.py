@@ -21,7 +21,7 @@ if TYPE_CHECKING:
 
     from .team_member import TeamMember
     from .user_role import UserRole
-
+    from .xmpp_encryption_methods import XMPPEncryptionMethods
 
 
 
@@ -33,5 +33,6 @@ class User(UUIDAuditBase):
 
     # User account information
     xmpp_address: Mapped[str] = mapped_column(String(255), nullable=True, comment="The XMPP address for the user")
-    
+    xmpp_encryption_method: Mapped[bool[XMPPEncryptionMethods]] = mapped_column(String(255), nullable=False, comment="The XMPP encryption method for the user")    
     name: Mapped[str] = mapped_column(String(255), nullable=False, comment="The name of the user")
+    
