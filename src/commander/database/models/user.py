@@ -23,8 +23,15 @@ if TYPE_CHECKING:
     from .user_role import UserRole
 
 
+
+
+
 class User(UUIDAuditBase):
     __tablename__: str = "user_account"
     __table_args__ = {"comment": "User account for the commander application, handles authentication and authorization"}
     pii_columns: List[str] = ["email", "phone_number"]
 
+    # User account information
+    xmpp_address: Mapped[str] = mapped_column(String(255), nullable=True, comment="The XMPP address for the user")
+    
+    name: Mapped[str] = mapped_column(String(255), nullable=False, comment="The name of the user")
